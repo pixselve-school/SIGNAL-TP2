@@ -17,7 +17,7 @@ imshow(image.Im);
 subplot(2, 2, 2);
 imshow(newImage);
 
-SE = strel('disk', 4, 8);
+SE = strel('disk', 5, 8);
 SE2 = strel('disk', 6, 8);
 SE3 = strel('disk', 7, 8);
 
